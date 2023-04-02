@@ -1,7 +1,9 @@
 name: Package Project
 
 # kiedy mam uruchomic automatyzacje
-on: [push]
+on:
+  push:
+    branch: [main]
 
 jobs:
   build_and_test:
